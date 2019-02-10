@@ -1,5 +1,5 @@
 pipeline{
-    agnet any
+    agent any
     tool{
         jdk 'java8'
         maven 'maven'
