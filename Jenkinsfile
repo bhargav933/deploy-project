@@ -29,6 +29,7 @@ pipeline{
         stage("Deploy"){
             steps{
                 echo "This is Deploy stage"
+                build 'testfordeploy'
             }
         }
         
