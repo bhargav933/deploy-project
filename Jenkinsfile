@@ -33,6 +33,7 @@ pipeline{
                 timeout(1){
                     input 'would you like your next process?'
                 }
+                build 'test1'
             }
         }
         
