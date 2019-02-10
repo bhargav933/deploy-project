@@ -30,6 +30,9 @@ pipeline{
             steps{
                 echo "This is Deploy stage"
                 build 'test2'
+                {
+                    input 'would you like your next process?'
+                }
             }
         }
         
