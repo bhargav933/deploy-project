@@ -1,5 +1,9 @@
 pipeline{
     agnet any
+    tool{
+        jdk 'java8'
+        maven 'maven'
+    }
     stages{
         stage("Initiliszing") {
             steps{
