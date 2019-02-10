@@ -30,7 +30,7 @@ pipeline{
             steps{
                 echo "This is Deploy stage"
                 build 'test2'
-                {
+                timeout(1){
                     input 'would you like your next process?'
                 }
             }
